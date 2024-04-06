@@ -7,7 +7,7 @@ const Testimonial = () => {
   return (
     <div
       className="flex flex-col gap-5 p-5 items-center "
-      style={{ color: mode == false ? "white" : "" }}
+      style={{ color: mode === false ? "white" : "" }}
     >
       <div className="flex flex-col items-center">
         <h2 className="text-4xl font-semibold">Testimonial</h2>
