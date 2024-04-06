@@ -11,8 +11,8 @@ const Track = () => {
       <div
         className="md:w-1/5 flex  w-4/5 flex-col  bg-gray-200 p-5 items-center rounded-lg border-solid border-2 border-rose-600"
         style={{
-          backgroundColor: mode == false ? "#282c34" : "",
-          color: mode == false ? "white" : "",
+          backgroundColor: mode === false ? "#282c34" : "",
+          color: mode === false ? "white" : "",
         }}
       >
         <TbTruckDelivery className="sm:text-4xl text-xl text-rose-600 mb-3.5 " />
@@ -23,8 +23,8 @@ const Track = () => {
       <div
         className="md:w-1/5 flex  w-4/5 flex-col bg-gray-200 p-5 items-center rounded-lg border-solid border-2 border-rose-600"
         style={{
-          backgroundColor: mode == false ? "#282c34" : "",
-          color: mode == false ? "white" : "",
+          backgroundColor: mode === false ? "#282c34" : "",
+          color: mode === false ? "white" : "",
         }}
       >
         <FaShoppingBag className="sm:text-4xl text-xl text-rose-600 mb-3.5" />
@@ -34,8 +34,8 @@ const Track = () => {
       <div
         className="md:w-1/5 flex w-4/5 flex-col bg-gray-200 p-5 items-center rounded-lg border-solid border-2 border-rose-600"
         style={{
-          backgroundColor: mode == false ? "#282c34" : "",
-          color: mode == false ? "white" : "",
+          backgroundColor: mode === false ? "#282c34" : "",
+          color: mode === false ? "white" : "",
         }}
       >
         <LuIndianRupee className="sm:text-4xl text-xl text-rose-600 mb-3.5" />
