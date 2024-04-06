@@ -15,7 +15,7 @@ const Productinfo = () => {
     <Layout>
       <div
         className=" flex md:flex-row flex-col justify-center md:items-start items-center p-5 md:gap-10"
-        style={{ color: mode == false ? "white" : "" }}
+        style={{ color: mode === false ? "white" : "" }}
       >
         <img
           src="https://unsplash.com/photos/PDX_a_82obo/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHx8fDE3MTIzODk1MjF8MA&force=true"
