@@ -9,8 +9,8 @@ const Footer = () => {
       <div
         className=" w-full flex md:justify-center md:gap-72 justify-between p-5   mt-9 bg-gray-200 "
         style={{
-          backgroundColor: mode == false ? "#282c34" : "",
-          color: mode == false ? "grey" : "",
+          backgroundColor: mode === false ? "#282c34" : "",
+          color: mode === false ? "grey" : "",
         }}
       >
         <div className="flex md:w-1/4 flex-col gap-4">
