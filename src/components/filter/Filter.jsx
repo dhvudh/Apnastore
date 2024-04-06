@@ -8,8 +8,8 @@ const Filter = () => {
     <div>
       <div
         className="drop-shadow container mx-auto px-4 mt-5 bg-gray-200 flex flex-col rounded"
-        style={{ backgroundColor: mode == false ? "#282c34" : "" ,
-               color: mode == false ? "white" : ""}}
+        style={{ backgroundColor: mode === false ? "#282c34" : "" ,
+               color: mode === false ? "white" : ""}}
       >
         <div className="flex justify-between p-4">
           <p className="font-medium">Filters</p>
@@ -21,7 +21,7 @@ const Filter = () => {
           <select
             className="bg-gray-50 p-4 w-full rounded drop-shadow"
             style={{
-              backgroundColor: mode == false ? "#282c34" : "",
+              backgroundColor: mode === false ? "#282c34" : "",
               border: "0.5px solid white",
             }}
           >
@@ -35,7 +35,7 @@ const Filter = () => {
           <select
             className="bg-gray-50 p-4 w-full rounded drop-shadow"
             style={{
-              backgroundColor: mode == false ? "#282c34" : "",
+              backgroundColor: mode === false ? "#282c34" : "",
               border: "solid white 0.5px",
             }}
           >
