@@ -7,7 +7,7 @@ const Mystate = (props) => {
     
     
     const toggel = () => {
-      if(mode == true){
+      if(mode === true){
         
         document.body.style.backgroundColor = 'black'
         
