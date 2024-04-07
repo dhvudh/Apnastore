@@ -19,7 +19,7 @@ const Testimonial = () => {
         <div className="w-1/3 md:max-w-[500px] w-4/5 flex flex-col gap-5 items-center text-center">
           <img
             src="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?cs=srgb&dl=pexels-emmy-e-2381069.jpg&fm=jpg&w=200&h=120"
-            className="w-24 h-24 object-cover rounded-full object-center"
+            alt="user-image" className="w-24 h-24 object-cover rounded-full object-center"
           />
           <p>
             Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki
@@ -33,7 +33,7 @@ const Testimonial = () => {
         <div className=" w-1/3 md:max-w-[500px] w-4/5 flex flex-col gap-5 items-center text-center">
           <img
             src="https://images.pexels.com/photos/20798138/pexels-photo-20798138.jpeg?cs=srgb&dl=pexels-david-gari-20798138.jpg&fm=jpg&w=200&h=120"
-            className="w-24 h-24 object-cover object-center rounded-full"
+            alt="user-image" className="w-24 h-24 object-cover object-center rounded-full"
           />
 
           <p>
@@ -48,7 +48,7 @@ const Testimonial = () => {
         <div className=" w-1/3 md:max-w-[500px] w-4/5 flex flex-col gap-5 items-center text-center">
           <img
             src="https://images.pexels.com/photos/18312788/pexels-photo-18312788.jpeg?cs=srgb&dl=pexels-george-chambers-18312788.jpg&fm=jpg&w=200&h=120"
-            className="w-24 h-24 object-cover object-center rounded-full"
+           alt="user-image" className="w-24 h-24 object-cover object-center rounded-full"
           />
           <p>
             Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki
