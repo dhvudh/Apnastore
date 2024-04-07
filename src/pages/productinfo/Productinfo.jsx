@@ -32,7 +32,7 @@ const Productinfo = () => {
                 <IoIosStar />
                 <IoIosStarHalf />
               </div>
-              <p style={{ color: mode == false ? "grey" : "" }}>4 Reviews</p>
+              <p style={{ color: mode === false ? "grey" : "" }}>4 Reviews</p>
             </div>
 
             <div className="flex gap-3">
